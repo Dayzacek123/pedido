@@ -2,103 +2,203 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Invitación XV Años - Camila</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #fff;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    .container {
-      max-width: 600px;
-      margin: auto;
-      padding: 20px;
-    }
-    .center {
-      text-align: center;
-    }
-    h1, h2, h3 {
-      margin: 5px 0;
-    }
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #8b0000;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 5px;
-      margin: 10px 0;
-    }
-    form input, form button {
-      width: 100%;
-      padding: 10px;
-      margin: 5px 0;
-      font-size: 16px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis XV Años | Leslie Yamilet</title>
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- WEB AWESOME ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
 
-  <div class="container center">
-    
-    <!-- Título principal -->
-    <h1>¡Mis XV Años!</h1>
-    <h2>Camila</h2>
+  <!-- INICIO / HERO + CONTADOR -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Mis XV Años</h1>
+      <h2>LESLIE YAMILET MORENO LIZARRAGA</h2>
+      <div id="countdown" class="countdown"></div>
+    </div>
+  </header>
 
-    <!-- Imagen principal de invitación -->
-    <img src="ruta_de_tu_imagen_principal.jpg" alt="Invitación XV Camila" width="90%" />
+  <!-- MENSAJE CONMEMORATIVO -->
+  <section class="section mensaje">
+    <p>
+      Hay momentos en la vida que marcan el inicio de una nueva etapa.<br>
+      Acompáñame a celebrar este día tan especial que guardaré por siempre en mi corazón.
+    </p>
+  </section>
 
-    <p>Hay momentos inolvidables que se atesoran en el corazón, por eso quiero que compartas conmigo este día tan especial.</p>
+  <!-- PADRES Y PADRINOS -->
+  <section class="section familia">
+    <h2>Con la bendición de mis padres</h2>
+    <p style="font-family:'Great Vibes', cursive; font-size: 60px">
+      Jaime Alberto Moreno Jara<br>
+      Karla Irasema Lizarraga
+    </p>
 
-    <h2 class="center">Mis XV Años</h2>
+    <h2>Mis padrinos</h2>
+    <p style="font-family:'Great Vibes', cursive; font-size: 60px">
+      Maria del Carmen Moreno Sanchez<br>
+      Sergio Abel Perez Hernández
+    </p>
+  </section>
 
-    <!-- Fotos y detalles -->
-    <img src="ruta_de_otra_imagen.jpg" alt="Detalle 1" width="80%" />
-    
-    <h3>Acompáñanos</h3>
-    <p>Con la bendición de Dios y mis padres:</p>
+  <!-- FECHA Y EVENTOS -->
+  <section class="section eventos">
+    <h2>Cuándo y dónde</h2>
 
-    <p><strong>Camila</strong></p>
-    <p>Rodríguez Hernández</p>
-    
-    <!-- Aquí podrías listar padrinos -->
-    <p><em>Padrinos:</em> Karina & George</p>
+    <div class="eventos-grid">
 
-    <!-- Fecha y lugar -->
-    <h3>Información</h3>
-    <p><strong>📅 Fecha:</strong> Lunes 22 de Diciembre 2025</p>
-    <p><strong>⛪ Ceremonia:</strong> 18:00 hrs en Parroquia María del Mar</p>
-    <p><strong>🎉 Fiesta:</strong> 20:00 hrs en Salón Coral, Mazatlán, Sin.</p>
+      <!-- FECHA -->
+      <div class="evento">
+        <h3>Fecha</h3>
+        <div class="calendario">
+          <span class="mes">ENERO</span>
+          <span class="dia">31</span>
+          <span class="dia">2026</span>
+        </div>
+      </div>
 
-    <!-- Enlace a mapa de Google Maps -->
-    <a class="button" href="https://maps.app.goo.gl" target="_blank">Ver en Google Maps</a>
+      <!-- CAPILLA -->
+      <div class="evento">
+        <h3>Misa</h3>
+        <p>Hora: 5:00 PM</p>
+        <p>Capilla El Buen Pastor</p>
 
-    <!-- Formulario de confirmación -->
-    <h3>Confirmar asistencia</h3>
-    <form action="#" method="post">
-      <input type="text" name="nombre" placeholder="Nombre completo" required />
-      <input type="text" name="acompanantes" placeholder="Nombres de acompañantes" />
-      <input type="tel" name="telefono" placeholder="Número de celular" required />
-      <button type="submit" class="button">Enviar respuesta</button>
-    </form>
+        <a 
+          class="map-btn"
+          href="https://www.google.com/maps/place/Capilla+El+Buen+Pastor/@23.2773152,-106.4070673,18.29z/data=!4m9!1m2!2m1!1slibramiento+3+entre+calle+conchi+y+calle+santa+rosa+11414!3m5!1s0x1407b1fd70fc8523:0x5a6771008afd10!8m2!3d23.2776231!4d-106.4056896!16s%2Fg%2F11b7ffjsjh?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank">
+          Ver ubicación en Google Maps
+        </a>
 
-    <!-- Código de vestimenta -->
-    <h3>Código de vestimenta</h3>
-    <p><strong>Formal</strong></p>
-    <p>El color rosa queda reservado para la festejada.</p>
+        <div class="salon-fotos">
+          <img src="capilla3.png" alt="Salón San José 1">
+          <img src="capilla2.png" alt="Salón San José 2">
+          <img src="capilla.png" alt="Salón San José 3">
+        </div>
 
-    <!-- Sección de opciones de regalo -->
-    <h3>Opciones de regalo</h3>
-    <p>✨ Mi mejor regalo es tu presencia, pero si deseas obsequiar algo, puedes considerar la tradicional lluvia de sobres.</p>
+    </div>
+          <!-- FIESTA -->
+      <div class="evento">
+        <h3>Fiesta</h3>
+        <p>Hora: 7:30 PM</p>
+        <p>Salón San José</p>
 
-    <!-- Pie de página / hashtag -->
-    <p>📸 ¡Toma muchas fotos y usa el hashtag <strong>#XVdeCamila</strong>!</p>
+        <a 
+          class="map-btn"
+          href="https://maps.app.goo.gl/9jYvLXNY75P6JoCG7"
+          target="_blank">
+          Ver ubicación en Google Maps
+        </a>
 
-    <p>&copy; 2025 Camila. Todos los derechos reservados.</p>
+        <div class="salon-fotos">
+          <img src="local.jpg" alt="Salón San José 1">
+          <img src="local1.jpg" alt="Salón San José 2">
+          <img src="local2.jpg" alt="Salón San José 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- VESTIMENTA -->
+<section class="section vestimenta">
+  <h2>Vestimenta</h2>
+
+  <div class="icon-row">
+    <i class="fa-solid fa-user-tie" style="font-size: 50px;"></i>
+    <i class="fa-solid fa-person-dress" style="font-size: 50px;"></i>
   </div>
+
+  <p>Formal</p>
+</section>
+
+
+  <!-- REGALO -->
+<section class="section regalo">
+  <h2>Sugerencia para regalo</h2>
+  <p>
+    Tu presencia es el mejor regalo, pero si deseas obsequiarme algo,
+    lo recibiré con mucho cariño.
+  </p>
+  <div class="icon-row">
+    <i class="fa-solid fa-gift" style="font-size: 80px;"></i>
+  </div>
+</section>
+
+  <!-- CONFIRMACIÓN -->
+  <section class="section confirmacion">
+    <h2>Confirma tu asistencia</h2>
+
+    <form class="form">
+      <input type="text" placeholder="Nombre completo" required />
+
+      <div class="radio-group">
+        <label>
+          <input type="radio" name="asistencia" required />
+          Asistiré
+        </label>
+        <label>
+          <input type="radio" name="asistencia" />
+          No podré asistir
+        </label>
+      </div>
+
+      <textarea placeholder="Nombres de los asistentes"></textarea>
+      <button type="submit">Confirmar</button>
+    </form>
+  </section>
+
+  <!-- HASHTAG -->
+  <section class="section hashtag">
+    <h2>Comparte tus fotos</h2>
+    <p>Usa el hashtag</p>
+    <h3>#XVLeslieYamilet</h3>
+  </section>
+
+  <!-- GALERÍA FINAL -->
+  <section class="section galeria">
+    <h2>Momentos especiales</h2>
+    <div class="gallery">
+      <img src="yam2 trNS.png" alt="Foto 1" />
+      <img src="yam2.png" alt="Foto 2" />
+      <img src="yam3 copia.png" alt="Foto 3" />
+      <img src="cumple2.jpeg" alt="Foto 3" />
+    </div>
+  </section>
+
+  <!-- SCRIPT CONTADOR -->
+  <script>
+    const eventDate = new Date('2026-01-31T19:30:00');
+    const countdownElement = document.getElementById('countdown');
+
+    function updateCountdown() {
+      const now = new Date();
+      const diff = eventDate - now;
+
+      if (diff <= 0) {
+        countdownElement.textContent = '¡Hoy es el gran día!';
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+
+      countdownElement.textContent =
+        `${days} días ${hours} h ${minutes} m ${seconds} s`;
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
 
 </body>
 </html>
