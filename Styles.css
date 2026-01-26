@@ -27,10 +27,10 @@ body{
 .hero{
   position:relative;
   height:100vh;
-  background:url("nofondo2.png") center/cover no-repeat;
+  background:url("nofondo2.png") center;
   display:flex;
   justify-content:center;
-  align-items:center;
+  align-items:flex-end;
   text-align:center;
   color:var(--blanco);
 }
@@ -256,4 +256,3 @@ footer{
   from{opacity:0; transform:translateY(30px);}
   to{opacity:1; transform:translateY(0);}
 }
-
